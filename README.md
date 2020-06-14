@@ -1,5 +1,5 @@
 # 2 Mac Workflows for SOME Searches
-###### 3 Mac Automator Workflows for Searching Twitter and LinkedIn.
+###### 2 Mac Automator Workflows for Searching Twitter and LinkedIn.
 
 ###### Install:
 1. Click on "Clone or download"
