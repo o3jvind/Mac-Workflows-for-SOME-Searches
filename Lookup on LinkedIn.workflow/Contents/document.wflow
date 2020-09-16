@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>444.7</string>
+	<string>492</string>
 	<key>AMApplicationVersion</key>
-	<string>2.8</string>
+	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	tell application "System Events"		activate		try			set thelist to choose from list {"top", "people", "jobs", "content", "companies", "groups", "schools"} with prompt "What are you looking for?" with multiple selections allowed and empty selection allowed						if thelist is false then return						repeat with theItem in thelist				if (theItem as string) = ("top") then					open location "https://www.linkedin.com/search/results/index/?keywords=" &amp; (input as string)				else if (theItem as string) = ("jobs") then					open location "https://www.linkedin.com/jobs/search/?keywords=" &amp; (input as string)				else					open location "https://www.linkedin.com/search/results/" &amp; (theItem as string) &amp; "/?keywords=" &amp; (input as string)				end if			end repeat					end try	end tell	end run</string>
+					<string>on run {input, parameters}	tell application "System Events"		activate		try			set thelist to choose from list {"all", "people", "jobs", "events", "posts", "companies", "schools", "groups"} with prompt "What are you looking for?" with multiple selections allowed and empty selection allowed						if thelist is false then return						repeat with theItem in thelist				if (theItem as string) = ("all") then					open location "https://www.linkedin.com/search/results/all/?keywords=" &amp; (input as string)				else if (theItem as string) = ("people") then					open location "https://www.linkedin.com/search/results/people/?keywords=" &amp; (input as string)				else if (theItem as string) = ("jobs") then					open location "https://www.linkedin.com/jobs/search/?keywords=" &amp; (input as string)				else if (theItem as string) = ("events") then					open location "https://www.linkedin.com/search/results/events/?keywords=" &amp; (input as string)				else if (theItem as string) = ("posts") then					open location "https://www.linkedin.com/search/results/content/?keywords=" &amp; (input as string)				else if (theItem as string) = ("companies") then					open location "https://www.linkedin.com/search/results/companies/?keywords=" &amp; (input as string)				else if (theItem as string) = ("schools") then					open location "https://www.linkedin.com/search/results/schools/?keywords=" &amp; (input as string)				else if (theItem as string) = ("groups") then					open location "https://www.linkedin.com/search/results/groups/?keywords=" &amp; (input as string)														end if			end repeat					end try	end tell	end run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -105,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>612.500000:760.000000</string>
+				<string>490.500000:748.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -190,7 +190,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>934DFE87-247D-4CB1-AF3F-5CC0FF36CB3B</key>
+		<key>33A30EAA-13B4-45C0-8609-19ABC6ECB8C0</key>
 		<dict>
 			<key>from</key>
 			<string>1C38599B-CA36-49DD-8961-B9375E3851CB - 1C38599B-CA36-49DD-8961-B9375E3851CB</string>
@@ -200,15 +200,27 @@ end run</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
-		<key>serviceApplicationBundleID</key>
-		<string></string>
-		<key>serviceApplicationPath</key>
-		<string></string>
+		<key>applicationBundleIDsByPath</key>
+		<dict/>
+		<key>applicationPaths</key>
+		<array/>
+		<key>inputTypeIdentifier</key>
+		<string>com.apple.Automator.text</string>
+		<key>outputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>presentationMode</key>
+		<integer>11</integer>
+		<key>processesInput</key>
+		<integer>0</integer>
 		<key>serviceInputTypeIdentifier</key>
 		<string>com.apple.Automator.text</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>systemImageName</key>
+		<string>NSActionTemplate</string>
+		<key>useAutomaticInputType</key>
 		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.servicesMenu</string>
