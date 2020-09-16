@@ -1,4 +1,4 @@
-# 2 Mac Workflows for SOME Searches
+# 2 Mac Workflows for Social Media Searches
 ###### 2 Mac Automator Workflows for Searching Twitter and LinkedIn.
 
 ###### Install:
