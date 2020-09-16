@@ -2,7 +2,7 @@
 ###### 2 Mac Automator Workflows for Searching Twitter and LinkedIn.
 
 ###### Install:
-1. Click on "Clone or download"
+1. Click on the green button "Code" on this page
 2. Select "Download zip"
 3. Unzip the downloaded file
 4. Double-click the workflow you want to install e.g.–"Lookup on Twitter.workflow" and select "Install".
