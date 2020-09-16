@@ -1,11 +1,11 @@
-# 2 Mac Workflows for SOME Searches
-###### 2 Mac Automator Workflows for Searching Twitter and LinkedIn.
+# 2 Mac Workflows for Social Media Searches
+###### 2 Mac Automator Workflows for Searching on Twitter and LinkedIn.
 
 ###### Install:
 1. Click on "Clone or download"
 2. Select "Download zip"
 3. Unzip the downloaded file
-4. Double-click the workflow you want to install e.g.–"Lookup on Twitter.workflow" and select "Install".
+4. Double-click the workflow you want to install e.g.–"Look Up on Twitter.workflow" and select "Install".
 
 ###### Usage:
 1. Select some text in any text based program Like "Pages", "Preview" or "Safari"
@@ -16,7 +16,7 @@
 6. Enjoy :-)
 
 ###### Uninstall:
-1. Make a Spotlight Search (CMD/SPACE) and search for e.g.–"Lookup on Twitter"
+1. Make a Spotlight Search (CMD/SPACE) and search for e.g.–"Look Up on Twitter"
 2. In Spotlight highlight the file
 3. Press CMD/ENTER to open the folder where the file is placed
 4. Delete the workflow you don't want
