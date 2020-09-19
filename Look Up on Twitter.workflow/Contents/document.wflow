@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	tell application "System Events"		activate		try			set thelist to choose from list {"top", "latest", "people", "photos", "video", "news"} with prompt "What are you looking for?" with multiple selections allowed and empty selection allowed						if thelist is false then return						repeat with theItem in thelist				if (theItem as string) = ("top") then					open location "https://twitter.com/search?q=" &amp; (input as string)				else if (theItem as string) = ("latest") then					open location "https://twitter.com/search?q=" &amp; (input as string) &amp; "&amp;f=live"				else if (theItem as string) = ("people") then					open location "https://twitter.com/search?q=" &amp; (input as string) &amp; "&amp;f=user"				else if (theItem as string) = ("photos") then					open location "https://twitter.com/search?q=" &amp; (input as string) &amp; "&amp;f=image"				else if (theItem as string) = ("video") then					open location "https://twitter.com/search?q=" &amp; (input as string) &amp; "&amp;f=video"				end if			end repeat					end try	end tell	end run</string>
+					<string>on run {input, parameters}	tell application "System Events"		activate		try			set thelist to choose from list {"top", "latest", "people", "photos", "video"} with prompt "What are you looking for?" with multiple selections allowed and empty selection allowed						if thelist is false then return						repeat with theItem in thelist				if (theItem as string) = ("top") then					open location "https://twitter.com/search?q=" &amp; (input as string)				else if (theItem as string) = ("latest") then					open location "https://twitter.com/search?q=" &amp; (input as string) &amp; "&amp;f=live"				else if (theItem as string) = ("people") then					open location "https://twitter.com/search?q=" &amp; (input as string) &amp; "&amp;f=user"				else if (theItem as string) = ("photos") then					open location "https://twitter.com/search?q=" &amp; (input as string) &amp; "&amp;f=image"				else if (theItem as string) = ("video") then					open location "https://twitter.com/search?q=" &amp; (input as string) &amp; "&amp;f=video"				end if			end repeat					end try	end tell	end run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -105,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:597.000000</string>
+				<string>547.000000:1055.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -190,7 +190,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>2BB74995-1D9D-4A6E-A43F-F38F0F7C5C43</key>
+		<key>DA8F90D0-35F0-44E7-A80D-3D997054BD54</key>
 		<dict>
 			<key>from</key>
 			<string>1C38599B-CA36-49DD-8961-B9375E3851CB - 1C38599B-CA36-49DD-8961-B9375E3851CB</string>
